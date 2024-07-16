@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels: 
+    app.kubernetes.io/instance: testjul16-9-test
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: testjul16-9-test 
+  name: testjul16-9-test
+spec:
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 100Gi

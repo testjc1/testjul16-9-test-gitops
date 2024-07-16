@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: testjul16-9-test-gitops-repository
+spec:
+  url: https://github.com/testjc1/testjul16-9-test-gitops
